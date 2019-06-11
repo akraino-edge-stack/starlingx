@@ -18,7 +18,7 @@ export PYTHONPATH=:/home/svc-cgcsauto/wassp-repos.new/${REPO_DIR}/cgcs/CGCSAuto
 export WASSP_HOME=/home/svc-cgcsauto/wassp-repos.new
 export PYTHON3=/usr/local/bin/python3.4
 
-export LAB=WCP_14
+export LAB=WCP_71-75
 export TEST_DOMAIN=akraino
 export TEST_TYPE=functional
 export TEST_PATH=z_containers/test_kube_edgex_services.py

@@ -1,0 +1,25 @@
+system_mode: duplex
+
+dns_servers:
+  - 192.168.100.60
+
+docker_registries:
+  defaults:
+    url: 192.168.100.60
+    secure: False
+
+distributed_cloud_role: systemcontroller
+
+external_oam_subnet: 192.168.200.0/24
+external_oam_gateway_address: 192.168.200.1
+external_oam_floating_address: 192.168.200.203
+external_oam_node_0_address: 192.168.200.76
+external_oam_node_1_address: 192.168.200.77
+
+management_subnet: 10.10.53.0/24
+management_start_address: 10.10.53.10
+management_end_address: 10.10.53.100
+management_gateway_address: 10.10.53.1
+
+ansible_become_pass: St4rlingX*
+admin_password: St4rlingX*

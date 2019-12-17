@@ -1,0 +1,63 @@
+---
+project: 'starlingx'
+project_creation_date: '2019-12-16'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &akraino_starlingx_ptl
+    name: ''
+    email: ''
+    id: ''
+    company: ''
+    timezone: ''
+primary_contact: *akraino_starlingx_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.akraino.org/projects/'
+    key: 'starlingx'
+mailing_list:
+    type: 'groups.io'
+    url: 'technical-discuss@lists.akraino.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#akraino'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.akraino.org/display/'
+      url: ''
+      server: 'freenode.net'
+      channel: '#akraino'
+      repeats: ''
+      time: ''
+repositories:
+    - starlingx
+committers:
+    - <<: *akraino_starlingx_ptl
+    - name: 'Bill Zvonar'
+      email: 'bill.zvonar@windriver.com'
+      company: 'windriver'
+      id: 'billzvonar'
+      timezone: 'Unknown/Unknown'
+    - name: 'Bruce Jones'
+      email: 'Bruce.e.jones@intel.com'
+      company: 'intel'
+      id: 'brucej'
+      timezone: 'Unknown/Unknown'
+    - name: 'Dariush Eslimi'
+      email: 'dariush.eslimi@windriver.com'
+      company: 'windriver'
+      id: 'deslimi'
+      timezone: 'Unknown/Unknown'
+    - name: 'Alexander Kozyrev'
+      email: 'alex.kozyrev@windriver.com'
+      company: 'windriver'
+      id: 'akozyrev'
+      timezone: 'Unknown/Unknown'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'missing'
+    changes:
+        - type: ''
+          name: ''
+          link: ''

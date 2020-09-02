@@ -1,4 +1,5 @@
 # UUID                                                                       	Group Name
 #
 0706f97cf3b2243094a8f24452092769b1065db0                                     	GitHub Replication
+22386b204c2397143373c661cefac693247013fd                                     	saml/akraino-gerrit-starlingx-committers
 ldap:cn=akraino-gerrit-starlingx-committers,ou=Groups,dc=freestandards,dc=org	ldap/akraino-gerrit-starlingx-committers
